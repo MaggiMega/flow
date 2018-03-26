@@ -1,5 +1,136 @@
-* {
 //    border: 1px solid black;
+* {
+}
+
+.mathType {
+    background-color: #FFF;
+  //  height: 800px;
+    margin: 30px;
+    overflow: hidden;
+    margin-bottom: 20px; 
+    padding-bottom: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mathHeader {
+    background-color: rgb(241, 241, 247);
+    padding:20px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.count:hover {
+    cursor: pointer;
+    background: url(assets/images/dashboard/subtract-white.svg) right/auto no-repeat;
+}
+
+.count {
+    cursor: pointer;
+    background: url(assets/images/dashboard/subtract-blue.svg) right/auto no-repeat;
+}
+
+.addition:hover {
+    cursor: pointer;
+    background: url(assets/images/dashboard/add-white.svg) right/auto no-repeat;
+}
+
+.addition {
+    cursor: pointer;
+    background: url(assets/images/dashboard/add-blue.svg) right/auto no-repeat;
+}
+
+.subtraction:hover {
+    cursor: pointer;
+    background: url(assets/images/dashboard/add-white.svg) right/auto no-repeat;
+}
+
+.subtraction {
+    cursor: pointer;
+    background: url(assets/images/dashboard/add-blue.svg) right/auto no-repeat;
+}
+
+.left {
+    float:left;
+}
+
+.mathBox {
+    height: 150px;
+    width: 30%;
+    float: left;
+    background-color: rgba(248, 248, 248, 0.356);
+    border: 1px solid #DCDCDC; 
+    border-radius: 2px;
+    margin-left: 20px;
+    margin-top: 20px; 
+}
+
+.miniMath {
+    float: left;
+    height: 65px;
+ //  border: 1px solid #DCDCDC;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding-left: 7px;
+    width: 45%;
+    vertical-align: center;
+}
+
+.miniMath p {
+    font-size: 10px;
+}
+
+.miniMath h4 {
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.one {
+    text-align: center;
+}
+
+.two {
+    display: block;
+    cursor: pointer;
+    background: url(assets/images/dashboard/multi-question-type-selected.svg) center no-repeat;
+}
+
+
+
+.three {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 30px;
+    text-align: right; 
+    line-height: 65px;
+    font-size: 20px;
+    cursor: pointer;
+    background: url(assets/images/dashboard/question-percentage.svg) center/16px no-repeat;
+}
+
+
+.four {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 30px;
+    text-align: right;
+    line-height: 65px;
+    font-size: 20px;
+    cursor: pointer;
+    background: url(assets/images/dashboard/difficulty-meter.svg) center/16px no-repeat;
+}
+
+
+#addition {
+    display: none;
+}
+
+#subtraction {
+    display: none;
 }
 
 ul.breadcrumb {
@@ -77,9 +208,11 @@ ul.breadcrumb li a {
   //  padding-top: 0;
   //  margin-top: 0; 
     background: #f6f7fb;
-    -webkit-box-shadow: inset 0px 1px 8px 0px rgba(50, 50, 50, 0.2);
-    -moz-box-shadow: inset 0px 1px 8px 0px rgba(50, 50, 50, 0.2);
-    box-shadow: inset 0px 1px 8px 0px rgba(50, 50, 50, 0.2);
+    -webkit-box-shadow: inset 0px 1px 8px 0px rgba(50, 50, 50, 0.1);
+    -moz-box-shadow: inset 0px 1px 8px 0px rgba(50, 50, 50, 0.1);
+    box-shadow: inset 0px 1px 8px 0px rgba(50, 50, 50, 0.1);
+    //margin-bottom: 20px;
+    padding: 20px;
 }
 
 .bottom {

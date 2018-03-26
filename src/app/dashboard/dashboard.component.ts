@@ -9,11 +9,41 @@ export class DashboardComponent implements OnInit {
 
   constructor() { }
 
+  toggleDiv() {
+
+  }
+
   ngOnInit() {
   }
 
   ngAfterViewInit() {
-    
+    $('.count').click(function() {
+      $('#count').toggle();
+      if(!$('#count').is(':visible')){
+        $('.count').css("background", "url(assets/images/dashboard/add-blue.svg) right/auto no-repeat");  
+      } else {
+        $('.count').css("background", "url(assets/images/dashboard/subtract-blue.svg) right/auto no-repeat")
+      }
+    });
+
+    $('.addition').click(function() {
+      $('#addition').toggle();
+      if(!$('#addition').is(':visible')){
+        $('.addition').css("background", "url(assets/images/dashboard/add-blue.svg) right/auto no-repeat")
+      } else {
+        $('.addition').css("background", "url(assets/images/dashboard/subtract-blue.svg) right/auto no-repeat")
+      }
+    });
+
+    $('.subtraction').click(function() {
+      $('#subtraction').toggle();
+      if(!$('#subtraction').is(':visible')){
+        $('.subtraction').css("background", "url(assets/images/dashboard/add-blue.svg) right/auto no-repeat")
+      } else {
+        $('.subtraction').css("background", "url(assets/images/dashboard/subtract-blue.svg) right/auto no-repeat")
+      }
+    });
+
     $('#dash1').click(function(){ 
       $('#dash1 input').css("background", "url(assets/images/dashboard/chart-pie-selected.svg) center/auto 100%  no-repeat");  
       $('#dash2 input').css("background", "url(assets/images/dashboard/question.svg) center/auto 100% no-repeat");
@@ -81,7 +111,9 @@ export class DashboardComponent implements OnInit {
       $('.statistics').hide();
       $('.settings').show();
     });
-    
+
   }
+
+
 
 }
