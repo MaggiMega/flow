@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="2px" viewBox="0 0 12 2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>small-delete</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flow-dash-admin" transform="translate(-1270.000000, -215.000000)" fill="#22A2DE" fill-rule="nonzero">
+            <g id="small-delete" transform="translate(1270.000000, 215.000000)">
+                <path d="M11,0 L1,0 C0.4,0 0,0.4 0,1 C0,1.6 0.4,2 1,2 L11,2 C11.6,2 12,1.6 12,1 C12,0.4 11.6,0 11,0 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

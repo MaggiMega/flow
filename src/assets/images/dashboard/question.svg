@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flow-dash-admin" transform="translate(-130.000000, -408.000000)" fill="#ACBEC5" fill-rule="nonzero">
+            <g id="folder-question" transform="translate(130.000000, 408.000000)">
+                <path d="M23,4 L12.5,4 L9.8,0.4 C9.611,0.148 9.314,0 9,0 L1,0 C0.447,0 0,0.447 0,1 L0,23 C0,23.553 0.447,24 1,24 L23,24 C23.553,24 24,23.553 24,23 L24,5 C24,4.447 23.553,4 23,4 Z M12,20 C11.448,20 11,19.552 11,19 C11,18.448 11.448,18 12,18 C12.552,18 13,18.448 13,19 C13,19.552 12.552,20 12,20 Z M13.0399605,14.868 L13.0399605,17 L11.0666009,17 L11.0666009,14 C11.0666009,13.447 11.5076468,13 12.0532807,13 C13.1040947,13 14.0266404,12.065 14.0266404,11 C14.0266404,9.935 13.1040947,9 12.0532807,9 C11.2520967,9 10.4824864,9.672 10.2022694,10.321 L9.80759743,11.237 L8,10.436 L8.39467193,9.52 C9.02417366,8.061 10.5624075,7 12.0532807,7 C14.1924026,7 16,8.832 16,11 C16,12.824 14.7202763,14.41 13.0399605,14.868 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

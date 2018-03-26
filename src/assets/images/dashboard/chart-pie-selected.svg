@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>chart-pie-35</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flow-dash-admin" transform="translate(-130.000000, -328.000000)" fill="#334750" fill-rule="nonzero">
+            <g id="chart-pie-35" transform="translate(130.000000, 328.000000)">
+                <path d="M13,11 L23.949,11 C23.466,5.181 18.819,0.534 13,0.051 L13,11 Z" id="Shape"></path>
+                <path d="M12.414,13 L4.259,21.155 C6.351,22.926 9.051,24 12,24 C18.279,24 23.438,19.149 23.949,13 L12.414,13 Z" id="Shape"></path>
+                <path d="M11,11.586 L11,0.051 C4.851,0.562 0,5.721 0,12 C0,14.949 1.074,17.649 2.845,19.741 L11,11.586 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

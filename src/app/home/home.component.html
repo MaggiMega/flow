@@ -1,9 +1,27 @@
-<div id="overlay" (click)="overlayToggle()">
-  <div id="signUp" class="blockBox">
-  <h3 class="left">Signup Form</h3>
-  <h3 class="right">Login Form</h3>
-  <div class="signUpBlocks"></div>
-  <div class="signUpBlocks"></div>
+<div id="overlay">
+    <a href="#" class="hideOverlay" (click)="hideOverlay()">&times;</a>
+  <div id="signUp" class="">
+    <h3 class="left">Signup Form</h3>
+    <h3 class="right">Login Form</h3>
+    <div class="signUpBlocks1">
+        <input type="text" class="txt split-2" name="item"  [(ngModel)]="fullName">
+        <input type="text" class="txt split 2" name="item"  [(ngModel)]="userName">
+        <input type="text" class="txt" name="item"  [(ngModel)]="email">
+        <input type="password" class="txt" name="item"  [(ngModel)]="password">
+        
+        <label class="checkBox">I Agree to the terms and conditions
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+        <a href="#" class="blueBtn">Sign Up</a>
+      
+    </div>
+    <div class="signUpBlocks2">
+        <input type="text" class="txt split-2" name="item"  [(ngModel)]="loginName">
+        <input type="password" class="txt" name="item" [(ngModel)]="loginPass">
+        <a  id="login" class="blueBtn" (click)="login()">Login</a>
+        <p>Forgot your password? <a href="#">Click here</a></p>
+    </div>
   </div>
 </div>
 
@@ -13,15 +31,15 @@
 <div id="infoPage">
     <div class="container">
         <ul>
-            <li><a routerLink="app"><img class="img-responsive" src="assets/images/main-logo.png"></a></li>
-            <li> ({{itemcount}})</li>
-            <li>{{somstr}}</li>
-            <li class="right"><a class="active" href="#home" (click)="overlayToggle()">Sign up/Login</a></li>
+            <li><a routerLink="app"><img src="assets/images/main-logo.png"></a></li>
+            <li><a routerLink="about">{{somstr}}</a></li>
+            <li class="right"><a class="active" href="#home" (click)="showOverlay()">Sign up/Login</a></li>
           </ul>
     </div>
   
     <section class="flowControl">
       <div class="container">
+        
         <div class="split-2">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/v_h_4Cj2cwI" frameborder="0" allowfullscreen></iframe>
         </div>
@@ -33,7 +51,7 @@
             </header>
             <footer>
               <a href="#" class="blueBtn">try now</a>
-            </footer>
+            </footer> 
           </article>
         </div>
       </div>

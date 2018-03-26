@@ -1,0 +1,194 @@
+* {
+//    border: 1px solid black;
+}
+
+ul.breadcrumb {
+    padding: 16px 16px;
+    list-style: none;
+    margin-top: 0;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 12px;
+}
+
+ul.breadcrumb li+li:before {
+    color: #334650;
+    content: "/\00a0";
+    //   padding: 8px;
+}
+
+ul.breadcrumb li a {
+    color: #35a4db;
+    text-decoration: none;
+}
+
+.sidebar {
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar .ico  img{
+    display: block;
+    width: 150px;
+    height: auto;
+    padding: 30px;
+    margin: auto;
+}
+
+
+
+.sidebar ul li {
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    color: #DCDCDC;
+    border-left: 4px solid transparent;
+}
+
+.sidebar ul li:hover {
+    color: #334650!important;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+}
+
+.sidebar ul li:hover {
+    border-left: 4px solid #35a4db; 
+}
+
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.content {
+    margin-left: 240px; /* Same as the width of the sidenav */
+  //  padding-top: 0;
+  //  margin-top: 0; 
+    background: #f6f7fb;
+    -webkit-box-shadow: inset 0px 1px 8px 0px rgba(50, 50, 50, 0.2);
+    -moz-box-shadow: inset 0px 1px 8px 0px rgba(50, 50, 50, 0.2);
+    box-shadow: inset 0px 1px 8px 0px rgba(50, 50, 50, 0.2);
+}
+
+.bottom {
+    position: absolute;
+    bottom: 10px;
+}
+
+.dashboard {
+    display: inline;
+    min-height: 600px;
+}
+
+.questions {
+    display: none;
+}
+
+.users {
+    display: none;
+}
+
+.statistics {
+    display: none;
+}
+
+.settings {
+    display: none;
+}
+
+
+#dash1 input {
+    background: url(assets/images/dashboard/chart-pie-selected.svg) center/auto 100%  no-repeat;
+    cursor:pointer;
+    width: 70px;
+    border: none;
+}
+
+#dash1:hover input {
+    background: url(assets/images/dashboard/chart-pie-selected.svg) center/auto 100%  no-repeat!important;
+    cursor:pointer;
+    width: 70px;
+    border: none;
+}
+
+#dash2 input {
+    background:url(assets/images/dashboard/question.svg) center/auto 100% no-repeat;
+    cursor:pointer;
+    width: 70px;
+    border: none;
+}
+
+#dash2:hover input {
+    background:url(assets/images/dashboard/question-selected.svg) center/auto 100% no-repeat !important;
+    cursor:pointer;
+    width: 70px;
+    border: none;
+}
+
+#dash3 input {
+    background:url(assets/images/dashboard/profile.svg) center/auto 100% no-repeat;
+    cursor:pointer;
+    width: 70px;
+    border: none;
+}
+
+#dash3:hover input {
+    background:url(assets/images/dashboard/profile-selected.svg) center/auto 100% no-repeat !important;
+    cursor:pointer;
+    width: 70px;
+    border: none;
+}
+
+#dash4 input {
+    background:url(assets/images/dashboard/bar-chart.svg) center/auto 100% no-repeat;
+    cursor:pointer;
+    width: 70px;
+    border: none;
+}
+
+#dash4:hover input {
+    background:url(assets/images/dashboard/bar-chart-selected.svg) center/auto 100% no-repeat !important;
+    cursor:pointer;
+    width: 70px;
+    border: none;
+}
+
+#dash5 input {
+    background:url(assets/images/dashboard/setting.svg) center/auto 100% no-repeat;
+    cursor:pointer;
+    width: 70px;
+    border: none;
+}
+
+#dash5:hover input {
+    background:url(assets/images/dashboard/setting-selected.svg) center/auto 100% no-repeat !important;
+    cursor:pointer;
+    width: 70px;
+    border: none;
+}
+
+#dash6:hover input {
+    background:url(assets/images/dashboard/logout-selected.svg) center/auto 100% no-repeat !important;
+    cursor:pointer;
+    width: 70px;
+    border: none;
+}
+
+#dash6 input {
+    background:url(assets/images/dashboard/logout.svg) center/auto 100% no-repeat;
+    cursor:pointer;
+    width: 70px;
+    border: none;
+} 
